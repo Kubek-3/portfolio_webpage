@@ -1,0 +1,20 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Lato', 'sans-serif'],
+      },
+      colors: {
+        primary: "#2563EB",      // electric blue
+        accent: "#22D3EE",       // cyan
+        glass: "rgba(255,255,255,0.08)",
+      },
+    },
+  },
+  plugins: [],
+}

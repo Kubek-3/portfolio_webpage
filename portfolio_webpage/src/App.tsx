@@ -1,0 +1,26 @@
+import Navbar from "./components/NavBar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import "./index.css";
+import WorkExperience from "./components/WorkExperience";
+
+function App() {
+	return (
+		<>
+			<Navbar />
+			<Hero />
+			<About />
+			<Projects />
+			<WorkExperience />
+			<Skills />
+			<Contact />
+			<Footer />
+		</>
+	);
+}
+
+export default App;
